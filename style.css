@@ -2,12 +2,27 @@
   display: flex;
   justify-content: center;
   gap: 20px;
+  padding: 80px;
+  border: 2px solid black;
+  align-content: space-around;
+  background-color: antiquewhite;
+  flex-wrap: wrap;
+}
+figure {
+  text-align: center;
 }
 img {
-  width: 300px;
-  height: auto;
+  width: 400px;
+  height: 500px;
 }
 img:hover {
   transform: scale(1.1); /*hover effekt*/
   transition: transform 0.3s ease; /*smooth transition*/
+  box-shadow: 10px 0px 20px gray;
+}
+header {
+  text-align: center;
+  font-size: larger;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: underline;
 }
