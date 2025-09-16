@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+img {
+  width: 300px;
+  height: auto;
+}
+img:hover {
+  transform: scale(1.1); /*hover effekt*/
+  transition: transform 0.3s ease; /*smooth transition*/
+}
